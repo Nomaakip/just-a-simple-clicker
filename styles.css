@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 95vh;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+#clickme {
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+#clicksh1 {
+    transition: all .3s;
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+}
+
+#upgrades {
+    border-radius: 10px;
+    border: 1px solid #7e7e7e;
+    width:13vh;
+    height: 2vh;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 62%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+#upgradesdiv {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(48, 47, 92, 0.566);
+    backdrop-filter: blur(9px);
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+
+#umain {
+    border: 1px solid rgba(68, 70, 212, 0.807);
+    backdrop-filter: blur(9px);
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(145, 87, 39, 0.3), rgba(171, 73, 184, 0.1)), rgba(49, 2, 102, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 400px;
+}
+
+
+#switch2div {
+    background: linear-gradient(135deg, rgba(82, 49, 23, 0.3), rgba(68, 29, 73, 0.1)), rgba(25, 0, 54, 0.1);
+    border: 1px solid rgba(68, 70, 212, 0.807);
+    width: 390px;
+    border-radius: 8px;
+}
+
+
+#switch2div button {
+    height: 50px;
+    width: 60px;
+}
