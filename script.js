@@ -1,4 +1,4 @@
-let clicks = JSON.parse(localStorage.getItem('clicks'));
+let clicks = localStorage.getItem('clicks');
 const clicksdisplay = document.getElementById('clicksh1');
 
 
@@ -15,5 +15,5 @@ clicksdisplay.innerHTML = "Clicks: " + clicks;
 function clicked() {
     clicks++;
     clicksdisplay.innerHTML = "Clicks: " + clicks;
-    localStorage.setItem('clicks', JSON.stringify(clicks));
+    localStorage.setItem('clicks', clicks);
 }
