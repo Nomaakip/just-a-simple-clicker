@@ -76,6 +76,7 @@ body {
 }
 
 #upgrades {
+    background: #7e7e7e1a;
     border-radius: 10px;
     border: 1px solid #7e7e7e;
     width: 13vh;
@@ -85,6 +86,7 @@ body {
     left: 50%;
     top: 62%;
     cursor: pointer;
+    backdrop-filter: blur(100px);
     transform: translate(-50%, -50%);
 }
 
