@@ -7,6 +7,27 @@
   font-style: normal;
 }
 
+
+#ubuy {
+    overflow-x: hidden;
+    overflow-y: scroll;
+max-height: 30vh;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+
 #u {
     display: flex;
     justify-content: center;
